@@ -18,7 +18,8 @@ public class RockPaperScissors {
         listaVal.add("o");
 
         Random randomGenerator = new Random();
-
+        System.out.println("-------------------------------------");
+        System.out.println("Du spelar mot datorn. Först till tre får en vinst.");
         while (spel== true) {
             System.out.println("-------------------------------------");
             System.out.println("Välj sten(.), sax(x) eller påse(o)!");
@@ -27,6 +28,8 @@ public class RockPaperScissors {
             String x = sc.nextLine();
 
             //dator slumpar
+
+
 
             if (x.equals(".") || x.equals("x") || x.equals("o")) {
                 System.out.println("Du valde " + checkString(x));
