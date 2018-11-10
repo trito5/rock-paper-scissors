@@ -30,7 +30,6 @@ public class RockPaperScissors {
             //dator slumpar
 
 
-
             if (x.equals(".") || x.equals("x") || x.equals("o")) {
                 System.out.println("Du valde " + checkString(x));
                 int randomNr = randomGenerator.nextInt(listaVal.size());
