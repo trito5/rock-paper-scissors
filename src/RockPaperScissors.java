@@ -12,7 +12,7 @@ public class RockPaperScissors {
         boolean spel = true;
 
 
-        ArrayList<String> listaVal = new ArrayList<>();
+        List<String> listaVal = new ArrayList<>();
         listaVal.add(".");
         listaVal.add("x");
         listaVal.add("o");
